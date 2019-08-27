@@ -23,9 +23,3 @@ Case you'll need reset the environment, follow the steps below.
 cd "${HOME}/workspace/simple-store-reactjs"
 sudo rm -rf dist/ node_modules/ && docker-compose down --rmi all --volumes && docker-compose build && docker-compose up
 ```
-
-### Run Unit Tests
-When you'll need to run the unit.
-```bash
-docker exec -it SimpleStore npm run test:verbose
-```
