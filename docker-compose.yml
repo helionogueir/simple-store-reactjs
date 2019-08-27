@@ -1,0 +1,15 @@
+version: "2.2"
+services:
+  SimpleStore:
+    cpus: 2
+    mem_limit: 448m
+    container_name: SimpleStore
+    env_file: ./.infra/frontend/local.env
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/root/workspace/app
+    build:
+      dockerfile: ./.infra/frontend/local.dockerfile
+      context: .
+    image: simple-store-reactjs
