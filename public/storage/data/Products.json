@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "category": "electronic",
+    "name": "TV",
+    "value": "$10.00",
+    "avatar": "/storage/fs/a1.png",
+    "description": "View our 4K Ultra HD smart TV RS50U1-EU with a 50-inch screen for an ultimate viewing experience, including HDMI and USB connections"
+  },
+  {
+    "id": 2,
+    "category": "utility",
+    "name": "Sofa",
+    "value": "$1,679.00",
+    "avatar": "/storage/fs/a2.png",
+    "description": "The Windsor is Joules' take on a classic Chesterfield, featuring bold colours and hidden details waiting to be discovered."
+  }
+]

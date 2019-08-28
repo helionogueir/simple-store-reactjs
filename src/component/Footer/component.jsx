@@ -1,12 +1,12 @@
-import React, { Component } from 'react'
-import './Footer.css'
+import React, { Component } from "react"
+import "./style.css"
 
 class Footer extends Component {
   render() {
     return (
-      <footer class="text-muted">
-        <div class="container">
-          <p class="float-right">
+      <footer className="text-muted">
+        <div className="container">
+          <p className="float-right">
             <a href="#SimpleStore-Header">Back to top</a>
           </p>
           <p>Simple Store &copy; Helio Nogueira, but please download and customize it for yourself!</p>

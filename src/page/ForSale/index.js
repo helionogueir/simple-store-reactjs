@@ -1,1 +1,1 @@
-export * from './ForSale'
+export * from "./component"
