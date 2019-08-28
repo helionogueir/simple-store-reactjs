@@ -5,7 +5,7 @@ if [ -f "./package.json" ]; then
   if [ $NODE_ENV = "development" ]; then
     npm start;
   else
-   npm start;
+   npm run build;
   fi
 else
   /bin/bash;
