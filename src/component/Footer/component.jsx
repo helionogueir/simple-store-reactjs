@@ -7,7 +7,7 @@ class Footer extends Component {
       <footer className="text-muted">
         <div className="container">
           <p className="float-right">
-            <a href="#SimpleStore-Header">Back to top</a>
+            <a href="#SimpleStore">Back to top</a>
           </p>
           <p>Simple Store &copy; Helio Nogueira, but please download and customize it for yourself!</p>
         </div>

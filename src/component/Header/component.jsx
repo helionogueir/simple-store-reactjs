@@ -5,7 +5,7 @@ import { ReactComponent as Store } from "./store.svg"
 class Header extends Component {
   render() {
     return (
-      <header id="SimpleStore-Header">
+      <header>
         <div className="navbar navbar-dark bg-dark shadow-sm">
           <div className="container d-flex justify-content-between">
             <Link to={"/"} className="navbar-brand d-flex align-items-center">
